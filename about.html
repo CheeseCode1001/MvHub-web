@@ -1,0 +1,460 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="pngegg (1).png" type="image/x-icon" />
+    <title>Mvhub</title>
+
+    <!-- lINKS -->
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <!-- BOX ICONS -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/d2994d5c9d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <div class="nav-wrapper">
+      <div class="container">
+        <div class="nav">
+          <a href="#" class="logo">
+            <i class="bx bxs-movie-play bx-tada" style="color: #e80909"></i
+            >Mv<span class="main-color">H</span>ub
+          </a>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html" class="home">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="series.html">Series</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+              <a href="#" class="btn btn-hover">
+                <span>Sign in</span>
+              </a>
+            </li>
+          </ul>
+          <!-- MOBILE MENU TOGGLE -->
+          <div class="hamburger-menu" id="hamburger-menu">
+            <div class="hamburger"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- LOGIN CONTAINER -->
+
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <i class="i fa-regular fa-circle-xmark"></i>
+          <div class="forms-wrap">
+            <form class="sign-in-form">
+              <div class="logo">
+                <img src="pngegg (1).png" alt="logo" />
+                <h4>MvHub</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Welcome Back</h2>
+                <h6>Not Registerd Yet?</h6>
+                <a href="#" class="toggle">Sign Up</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    minlength="4"
+                    id="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    id="password"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input
+                  type="submit"
+                  id="signIn"
+                  value="Sign In"
+                  class="sign-btn"
+                />
+
+                <p class="text">
+                  Forgotten your password or your login details?
+                  <a href="#">Get help</a> signing in
+                </p>
+                
+                  <button class="google" id="login">
+                    <img src="pngwing.com.png" alt="" />
+                  </button>
+                
+              </div>
+            </form>
+
+            <form class="sign-up-form">
+              <div class="logo">
+                <img src="pngegg (1).png" alt="logo" />
+                <h4>MvHub</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Get Started</h2>
+                <h6>Already have an account?</h6>
+                <a href="#" class="toggle">Sign In</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    id="username"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Name</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    id="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    id="password"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input
+                  type="submit"
+                  id="signUp"
+                  value="Sign Up"
+                  class="sign-btn"
+                />
+
+                <p class="text">
+                  By sigining up, I agree to the
+                  <a href="#">Terms of Service</a> and
+                  <a href="#">Privacy Policy</a>
+                </p>
+
+                <button class="google" id="login">
+                  <img src="pngwing.com.png" alt="" />
+                </button>
+
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img
+                src="https://i.pinimg.com/564x/6f/c0/85/6fc08561580a6bcfa40cc2ee71d82115.jpg"
+                class="image img-1"
+                alt=""
+              />
+              <img
+                src="https://cdn.dribbble.com/users/2851002/screenshots/7736965/media/e08e0676dd54ae8715c2d72bbdd51eb2.gif"
+                class="image img-2"
+                alt=""
+              />
+              <img
+                src="https://i.pinimg.com/originals/66/6a/bc/666abcf055d3896104cbb502d0e1a8fe.gif"
+                class="image img-3"
+                alt=""
+              />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Expolre a wide virety of movies</h2>
+                  <h2>Search for any movie of your choice</h2>
+                  <h2>Download movies of your interest</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- END OF LOGIN CONTAINER -->
+
+    <div class="about">
+      <div class="info">
+        <div>
+          <h1>About Us</h1>
+        </div>
+        <div class="p">
+          <p>
+            👋👋Welcome to MvHub,your ultimate destination for all things related to
+            the world of cinema!🎥 Weather u are a die hard movie buff or simpily
+            enjoying a every now and then,we are here to cater for your neeeds
+            and provide you with the latest information,reviews,trilers,and
+            more👍.
+          </p>
+          <p>
+            Weather you are planning a movie night with friends👩🏼‍🤝‍👩🏼👩🏼‍🤝‍🧑🏾,looking for a
+            recomendation for a family-friendly film,or simply want to keep up
+            with the latest box office hits MvHub got you covered. With a user
+            friendly interface and a wealth of information at your finger
+            top-movies-slide, your movie witching experience will never be the
+            same.
+          </p>
+          <p>
+            So sit back,grab some popcorn🍿 and embark on a journey through the
+            magical world of movies with us. We hope you enjoy your time here
+            and discover a new favourite film of two along the way.
+            Lights,Camera,Action!🎬🎥
+          </p>
+        </div>
+
+        <div class="social-list">
+          <a
+            href="https://mobile.facebook.com/profile.php/?id=100066586974785&name=xhp_n__fb__action__open_user"
+            class="social-item"
+          >
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="https://github.com/miracleeze101" class="social-item">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://wa.link/8zsmqu" class="social-item">
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- OWL CAROUSEL -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
+    <script src="login.js"></script>
+    <script type="module" src="google.js" defer></script>
+
+  </body>
+
+  <script type="module" defer>
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+    import {
+      getDatabase,
+      set,
+      ref,
+      update,
+    } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js";
+    import {
+      getAuth,
+      GoogleAuthProvider,
+      signInWithRedirect,
+      getRedirectResult,
+      signInWithPopup,
+      createUserWithEmailAndPassword,
+      signInWithEmailAndPassword,
+      onAuthStateChanged,
+      signOut,
+    } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyANqDpvDf6nXKA2SydEz5CqjhLg7CU_Q4M",
+      authDomain: "mvhub-bbc88.firebaseapp.com",
+      projectId: "mvhub-bbc88",
+      storageBucket: "mvhub-bbc88.appspot.com",
+      messagingSenderId: "506272938140",
+      appId: "1:506272938140:web:88f716e22f17635bc85559",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    const auth = getAuth(app);
+    const provider = new GoogleAuthProvider(app);
+
+    signUp.addEventListener("click", (e) => {
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+      var username = document.getElementById("username").value;
+
+      createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          // Sign in
+          const user = userCredential.user;
+
+          set(ref(database, "users/" + user.uid), {
+            username: username,
+            email: email,
+          });
+          alert("Thank you for siging up, userhas been created!");
+          // ...
+          if (email == email && password == password) {
+            window.location.assign("about.html");
+          }
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+
+          alert(errorMessage);
+          // ..
+        });
+    });
+
+    signIn.addEventListener("click", (e) => {
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+
+      signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          // Signed in
+          const user = userCredential.user;
+
+          const dt = new Date();
+          update(ref(database, "users/" + user.uid), {
+            last_login: dt,
+          });
+          alert("User LogedIn!");
+          // ...
+          if (email == email && password == password) {
+            window.location.assign("about.html");
+          }
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+
+          alert(errorMessage);
+          // ..
+        });
+    });
+
+    const user = auth.currentUser;
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // User is signed in, see docs for a list of available properties
+        // https://firebase.google.com/docs/refrence/js/firebase.User
+        const uid = user.uid;
+        // bla bla bla
+        // ...
+      } else {
+        // User is signed Out
+        // ...
+        // bla bla bla
+      }
+    });
+
+    logout.addEventListener("click", (e) => {
+      signOut(auth)
+        .then(() => {
+          // Sign Out successfull.
+          alert("User has Loged Out");
+        })
+        .catch((error) => {
+          // An error happened
+          const errorCode = error.code;
+          const errorMessage = error.message;
+
+          alert(errorMessage);
+        });
+    });
+
+   
+  </script>
+</html>

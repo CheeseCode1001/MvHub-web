@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="discover.css" />
+    <link rel="shortcut icon" href="pngegg (1).png" type="image/x-icon" />
+    <!-- lINKS -->
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <!-- BOX ICONS -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/d2994d5c9d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>MvHub</title>
+  </head>
+  <body>
+    <!-- NAV -->
+    <div class="nav-wrapper">
+      <div class="container">
+        <div class="nav">
+          <a href="index.html" class="logo">
+            <i class="bx bxs-movie-play bx-tada" style="color: #e80909"></i
+            >Mv<span class="main-color">H</span>ub
+          </a>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html" class="home">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="series.html">Series</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+              <a href="#" class="btn btn-hover">
+                <span>Sign in</span>
+              </a>
+            </li>
+          </ul>
+          <!-- MOBILE MENU TOGGLE -->
+          <div class="hamburger-menu" id="hamburger-menu">
+            <div class="hamburger"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END NAV -->
+
+    <header>
+      <form id="form">
+        <input type="text" placeholder="Search" id="search" class="search" />
+      </form>
+    </header>
+
+    <div class="section">
+      <div class="container">
+        <div id="tags"></div>
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+
+          <!-- Overlay content -->
+          <div class="overlay-content" id="overlay-content"></div>
+
+          <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow"
+            >&#8656;</a
+          >
+
+          <a
+            href="javascript:void(0)"
+            class="arrow right-arrow"
+            id="right-arrow"
+            >&#8658;</a
+          >
+        </div>
+        <main id="main"></main>
+        <div class="pagination">
+          <div class="page" id="prev">Previous Page</div>
+          <div class="current" id="current">1</div>
+          <div class="page" id="next">Next Page</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- OWL CAROUSEL -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
+    <script src="discover.js"></script>
+  </body>
+
+  <script type="module" defer>
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+    import {
+      getAuth,
+      GoogleAuthProvider,
+      signInWithRedirect,
+      getRedirectResult,
+      signInWithPopup,
+    } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyANqDpvDf6nXKA2SydEz5CqjhLg7CU_Q4M",
+      authDomain: "mvhub-bbc88.firebaseapp.com",
+      projectId: "mvhub-bbc88",
+      storageBucket: "mvhub-bbc88.appspot.com",
+      messagingSenderId: "506272938140",
+      appId: "1:506272938140:web:88f716e22f17635bc85559",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const provider = new GoogleAuthProvider(app);
+
+    login.addEventListener("click", (e) => {
+      // signInWithRedirect(auth, provider);
+
+      // getRedirectResult(auth)
+      // .then((result) => {
+      // // This gives you a Google Access Token. You can use it to access Google APIs.
+      // const credential = GoogleAuthProvider.credentialFromResult(result);
+      // const token = credential.accessToken;
+
+      // // The signed-in user info.
+      // const user = result.user;
+      // // IdP data available using getAdditionalUserInfo(result)
+      // // ...
+      // }).catch((error) => {
+      // // Handle Errors here.
+      // const errorCode = error.code;
+      // const errorMessage = error.message;
+      // // The email of the user's account used.
+      // const email = error.customData.email;
+      // // The AuthCredential type that was used.
+      // const credential = GoogleAuthProvider.credentialFromError(error);
+      // // ...
+      // });
+
+      signInWithPopup(auth, provider)
+        .then((result) => {
+          // This gives you a Google Access Token. You can use it to access the Google API.
+          const credential = GoogleAuthProvider.credentialFromResult(result);
+          const token = credential.accessToken;
+          // The signed-in user info.
+          const user = result.user;
+          // IdP data available using getAdditionalUserInfo(result)
+          // name=diplayName
+          // email=email
+          // photo = photoURL
+
+          alert(user.diplayName);
+        })
+        .catch((error) => {
+          // Handle Errors here.
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          // The email of the user's account used.
+          const email = error.customData.email;
+          // The AuthCredential type that was used.
+          const credential = GoogleAuthProvider.credentialFromError(error);
+          // ...
+          alert(errorMessage);
+        });
+    });
+  </script>
+</html>

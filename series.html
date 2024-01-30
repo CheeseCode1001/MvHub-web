@@ -1,0 +1,1950 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="pngegg (1).png" type="image/x-icon" />
+
+    <!-- lINKS -->
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <!-- BOX ICONS -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/d2994d5c9d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="series.css" />
+    <link rel="stylesheet" href="login.css" />
+
+    <title>MvHub</title>
+  </head>
+  <body>
+    <!-- NAV -->
+    <div class="nav-wrapper">
+      <div class="container">
+        <div class="nav">
+          <a href="index.html" class="logo">
+            <i class="bx bxs-movie-play bx-tada" style="color: #e80909"></i
+            >Mv<span class="main-color">H</span>ub
+          </a>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html" class="home">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="series.html">Series</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+              <a href="#" id="login" class="btn btn-hover">
+                <span>Sign in</span>
+              </a>
+            </li>
+          </ul>
+          <!-- MOBILE MENU TOGGLE -->
+          <div class="hamburger-menu" id="hamburger-menu">
+            <div class="hamburger"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- LOGIN CONTAINER -->
+
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <i class="i fa-regular fa-circle-xmark"></i>
+          <div class="forms-wrap">
+            <form class="sign-in-form">
+              <div class="logo">
+                <img src="pngegg (1).png" alt="logo" />
+                <h4>MvHub</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Welcome Back</h2>
+                <h6>Not Registerd Yet?</h6>
+                <a href="#" class="toggle">Sign Up</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    minlength="4"
+                    id="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    id="password"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input
+                  type="submit"
+                  id="signIn"
+                  value="Sign In"
+                  class="sign-btn"
+                />
+
+                <p class="text">
+                  Forgotten your password or your login details?
+                  <a href="#">Get help</a> signing in
+                </p>
+        
+                  <button class="google" id="login">
+                    <img src="pngwing.com.png" alt="" />
+                  </button>
+        
+              </div>
+            </form>
+
+            <form class="sign-up-form">
+              <div class="logo">
+                <img src="pngegg (1).png" alt="logo" />
+                <h4>MvHub</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Get Started</h2>
+                <h6>Already have an account?</h6>
+                <a href="#" class="toggle">Sign In</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    id="username"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Name</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    id="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    id="password"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input
+                  type="submit"
+                  id="signUp"
+                  value="Sign Up"
+                  class="sign-btn"
+                />
+
+                <p class="text">
+                  By sigining up, I agree to the
+                  <a href="#">Terms of Service</a> and
+                  <a href="#">Privacy Policy</a>
+                </p>
+
+                <button class="google" id="login">
+                  <img src="pngwing.com.png" alt="" />
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img
+                src="https://i.pinimg.com/564x/6f/c0/85/6fc08561580a6bcfa40cc2ee71d82115.jpg"
+                class="image img-1"
+                alt=""
+              />
+              <img
+                src="https://cdn.dribbble.com/users/2851002/screenshots/7736965/media/e08e0676dd54ae8715c2d72bbdd51eb2.gif"
+                class="image img-2"
+                alt=""
+              />
+              <img
+                src="https://i.pinimg.com/originals/66/6a/bc/666abcf055d3896104cbb502d0e1a8fe.gif"
+                class="image img-3"
+                alt=""
+              />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Expolre a wide virety of movies</h2>
+                  <h2>Search for any movie of your choice</h2>
+                  <h2>Download movies of your interest</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- END OF LOGIN CONTAINER -->
+
+    <!-- LATEST SERIES MOVIE SECTION 2 -->
+
+    <div class="section">
+      <div class="container">
+        <div class="section-header">latest movie series</div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/19516-one-piece"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/gEeK8Yjo7P8.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">One Piece</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/10735-the-witcher"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/LqXNEvx5KlE.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Witcher</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/18916-secret-invasion"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/1qGK1mVyKrV.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Secret Invasion</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/19178-twisted-metal"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/mr9KYDPQNq6.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Twisted Metal</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/17817-kaleidoscope"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/zOJabDZ1KG2.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Kaleidoscope</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://static.netnaija.com/i/yMX7yMrq783.webp"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/yMX7yMrq783.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Silo(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/18968-hijack"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/Wz27WpgBa5R.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Hijack</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/14729-all-the-queens-men"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/5VrNp3wRa9O.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">All the Queen's Men</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/19148-special-ops-lioness"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/yMX7yw2JN83.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Special Ops: Lioness</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/8853-the-chi"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/5VrNp106K9O.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Chi</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/18132-bad-behaviour"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/gEeK8lplKP8.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Bad Behaviour</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/nollywood/19372-sweet-16-2023"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/qEQN2Xg876W.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Sweet 16(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/nollywood/19309-class-of-secrets-2023"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/no4NXX3ON9M.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Class Of Secrets (2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/17499-1899"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/pJdN9rLPK4P.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">1899</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+    <!-- END LATEST MOVIE SERIES SECTION -->
+
+    <!-- 2020-2022 MOVIE SERIES SECTION  -->
+
+    <div class="section">
+      <div class="container">
+        <div class="section-header">2020-2022 movie series</div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/15900-halo"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/zOJabZO1aG2.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Halo(2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/15640-bel-air"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/1xYNe1p9NLJ.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Bel-Air</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/15702-all-american-homecoming"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/Gem7Q8wEKYx.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">All American: Homecoming</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="hhttps://www.thenetnaija.net/videos/series/7101-all-american"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/deYakpqvNP3.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">All American</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/kdrama/14690-squid-game"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/bvoKdW8zNrx.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Squid Game</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/14149-loki"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/xM6K53b6ayE.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Loki</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/15171-hawkeye"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/qEQN2yOda6W.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Hawkeye</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/9575-money-heist"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/wnRaMXeW7dq.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Money Heist</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/17533-wednesday"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/WAPK4JxJa0B.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Wednesday</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/16375-first-kill"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/1qdNVZ8AN4g.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">First Kill</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/15727-vikings-valhalla"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/gEeK8nkVaP8.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Vikings: Valhalla</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/16718-the-sandman"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/5wPKLy2X7VB.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Sandman</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/nollywood/17746-far-from-home"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/5VrNpgvRa9O.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Far From Home</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+    <!-- END 2020-2022 MOVIE SERIES SECTION -->
+
+    <!-- SPECIAL MOVIE SECTION -->
+    <div class="section">
+      <div class="hero-slide-item">
+        <img
+          src="https://storage.googleapis.com/cdn.spoilertv.com/images/headers/warrior-nun.jpg"
+          alt=""
+        />
+        <div class="overlay"></div>
+        <div class="hero-slide-item-content">
+          <div class="item-content-wraper">
+            <div class="item-content-title">Warrior Nun</div>
+            <div class="movie-infos">
+              <div class="movie-info">
+                <i class="bx bxs-star"></i>
+                <span>9.5</span>
+              </div>
+              <div class="movie-info">
+                <i class="bx bxs-time"></i>
+                <span>120 mins</span>
+              </div>
+              <div class="movie-info">
+                <span>HD</span>
+              </div>
+              <div class="movie-info">
+                <span>16+</span>
+              </div>
+            </div>
+            <div class="item-content-description">
+              After waking up in a morgue, an orphaned teen discovers she now
+              possesses superpowers as the chosen Halo Bearer for a secret sect
+              of demon-hunting nuns. After waking up in a morgue, an orphaned
+              teen discovers she now possesses superpowers as the chosen Halo
+              Bearer for a secret sect of demon-hunting nuns.
+            </div>
+            <div class="item-action">
+              <a
+                href="https://www.thenetnaija.net/videos/series/12003-warrior-nun"
+                class="btn btn-hover"
+              >
+                <i class="bx bxs-right-arrow"></i>
+                <span>Watch now</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SPECIAL MOVIE SECTION -->
+
+    <!-- LATEST CARTOONS/ANIMATIONS SERIES SECTION -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">latest cartoon/animation series</div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/18926-skull-island"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/1xYNem1jNLJ.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Skull Island</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/19383-my-dad-the-bounty-hunter"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/W4lNmnVOKRo.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">My Dad the Bounty Hunter</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/19062-my-adventures-with-superman"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/eDxawGpyaPZ.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">My Adventures with Superman</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/19325-mech-cadets"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/gVpago5OawO.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Mech Cadets</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/16886-samurai-rabbit-the-usagi-chronicles"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/BQJNjx6p7rL.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Samurai Rabbit: The Usagi Chronicles
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/13986-castlevania"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/gVpagJdX7wO.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Castlevania</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/17360-the-dragon-prince"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/3g8NBE28aDR.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Dragon Prince</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/14781-baki-hanma"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/G4E7zOGdab6.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Baki Hanma</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/16578-kung-fu-panda-the-dragon-knight"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/XV5KvB8BK9m.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Kung Fu Panda: The Dragon Knight
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/18317-agent-elvis"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/8yZaJVwZaJ0.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Agent Elvis</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+    <!-- END LATEST CARTOONS/ANIMATION SERIES SECTION -->
+
+    <!-- 2020-2022 CARTOON/ANIMATION SERIES SECTION -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">2020-2022 cartoon/animation series</div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/15041-arcane"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/Gem7QxEDKYx.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Arcane</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/13702-invincible"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/rOx7xqJa0M4.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Invincible</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/14999-inside-job"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/BQJNjEOyarL.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Inside Job</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/13701-dota-dragons-blood"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/90ZNPL8N8ez.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">DOTA: Dragon's Blood</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/16984-cyberpunk-edgerunners"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/wk37lxQl7Pd.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Cyberpunk: Edgerunners</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/15541-the-legend-of-vox-machina"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/bvWaqj8gNrk.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Legend of Vox Machina</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/12234-wizards-tales-of-arcadia"
+            class="movie-item"
+          >
+            <img src="https://img.netnaija.com/v9bHHK.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Wizards: Tales of Arcadia</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/12173-transformers-war-for-cybertron-trilogy"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/yMX7y0y8K83.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Transformers: War for Cybertron Trilogy
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/14011-love-death-and-robots"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/1qdNVOOoK4g.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Love, Death and Robots</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/13809-blood-of-zeus"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/rOx7xjgbN0M.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Blood of Zeus</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/10803-fast-furious-spy-racers"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/5wPKLZXmaVB.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Fast & Furious Spy Racers</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.thenetnaija.net/videos/series/17669-dragon-age-absolution"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/eDxawoLyaPZ.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Dragon Age: Absolution</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+    <!-- END 2020-2022 CARTOON/ANIMATION SERIES SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-md-6 col-sm-12">
+            <div class="content">
+              <a href="index.html" class="logo">
+                <i class="bx bxs-movie-play bx-tada" style="color: #e80909"></i
+                >Mv<span class="main-color">H</span>ub
+              </a>
+
+              <p>
+                Here at MvHub we offer you quality👌 entertainment and When it
+                come sto Movies!, MvHub got you covered,so no need to worry Just
+                sit back,grab some popcorn🍿 and embark on a journey through the
+                magical world of movies with us. Lights,Camera,Action!!🎬🎥.
+              </p>
+              <div class="social-list">
+                <a
+                  href="https://mobile.facebook.com/profile.php/?id=100066586974785&name=xhp_n__fb__action__open_user"
+                  class="social-item"
+                >
+                  <i class="bx bxl-facebook"></i>
+                </a>
+                <a href="https://github.com/miracleeze101" class="social-item">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://wa.link/8zsmqu" class="social-item">
+                  <i class="bx bxl-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>MvHub</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="about.html">About us</a></li>
+                    <li>
+                      <a href="https://github.com/miracleeze101">My profile</a>
+                    </li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="https://wa.link/8zsmqu">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Browse</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="about.html">About us</a></li>
+                    <li>
+                      <a href="https://github.com/miracleeze101">My profile</a>
+                    </li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="https://wa.link/8zsmqu">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Help</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="about.html">About us</a></li>
+                    <li>
+                      <a href="https://github.com/miracleeze101">My profile</a>
+                    </li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="https://wa.link/8zsmqu">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+      Copyright 2023
+      <a
+        href="https://www.youtube.com/channel/UCnNgtK4tGlWcceXVzoyTg8Q"
+        colas
+        target="_blank"
+      >
+        Grey Code</a
+      >
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- OWL CAROUSEL -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
+    <script src="login.js"></script>
+    <script type="module" src="google.js" defer></script>
+
+  </body>
+
+  <script type="module" defer>
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+    import {
+      getDatabase,
+      set,
+      ref,
+      update,
+    } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js";
+    import {
+      getAuth,
+      GoogleAuthProvider,
+      signInWithRedirect,
+      getRedirectResult,
+      signInWithPopup,
+      createUserWithEmailAndPassword,
+      signInWithEmailAndPassword,
+      onAuthStateChanged,
+      signOut,
+    } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyANqDpvDf6nXKA2SydEz5CqjhLg7CU_Q4M",
+      authDomain: "mvhub-bbc88.firebaseapp.com",
+      projectId: "mvhub-bbc88",
+      storageBucket: "mvhub-bbc88.appspot.com",
+      messagingSenderId: "506272938140",
+      appId: "1:506272938140:web:88f716e22f17635bc85559",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    const auth = getAuth(app);
+    const provider = new GoogleAuthProvider(app);
+
+    signUp.addEventListener("click", (e) => {
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+      var username = document.getElementById("username").value;
+
+      createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          // Sign in
+          const user = userCredential.user;
+
+          set(ref(database, "users/" + user.uid), {
+            username: username,
+            email: email,
+          });
+          alert("Thank you for siging up, userhas been created!");
+          // ...
+          if (email == email && password == password) {
+            window.location.assign("series.html");
+          }
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+
+          alert(errorMessage);
+          // ..
+        });
+    });
+
+    signIn.addEventListener("click", (e) => {
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+
+      signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          // Signed in
+          const user = userCredential.user;
+
+          const dt = new Date();
+          update(ref(database, "users/" + user.uid), {
+            last_login: dt,
+          });
+          alert("User LogedIn!");
+          // ...
+          if (email == email && password == password) {
+            window.location.assign("series.html");
+          }
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+
+          alert(errorMessage);
+          // ..
+        });
+    });
+
+    const user = auth.currentUser;
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // User is signed in, see docs for a list of available properties
+        // https://firebase.google.com/docs/refrence/js/firebase.User
+        const uid = user.uid;
+        // bla bla bla
+        // ...
+      } else {
+        // User is signed Out
+        // ...
+        // bla bla bla
+      }
+    });
+
+    logout.addEventListener("click", (e) => {
+      signOut(auth)
+        .then(() => {
+          // Sign Out successfull.
+          alert("User has Loged Out");
+        })
+        .catch((error) => {
+          // An error happened
+          const errorCode = error.code;
+          const errorMessage = error.message;
+
+          alert(errorMessage);
+        });
+    });
+
+   
+  </script>
+</html>

@@ -1,0 +1,1958 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="pngegg (1).png" type="image/x-icon" />
+    <title>MvHub</title>
+
+    <!-- lINKS -->
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <!-- BOX ICONS -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/d2994d5c9d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="movies.css" />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <div class="nav-wrapper">
+      <div class="container">
+        <div class="nav">
+          <a href="index.html" class="logo">
+            <i class="bx bxs-movie-play bx-tada" style="color: #e80909"></i
+            >Mv<span class="main-color">H</span>ub
+          </a>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html" class="home">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="series.html">Series</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+              <a href="#" class="btn btn-hover">
+                <span>Sign in</span>
+              </a>
+            </li>
+          </ul>
+          <!-- MOBILE MENU TOGGLE -->
+          <div class="hamburger-menu" id="hamburger-menu">
+            <div class="hamburger"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- LOGIN CONTAINER -->
+
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <i class="i fa-regular fa-circle-xmark"></i>
+          <div class="forms-wrap">
+            <form class="sign-in-form">
+              <div class="logo">
+                <img src="pngegg (1).png" alt="logo" />
+                <h4>MvHub</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Welcome Back</h2>
+                <h6>Not Registerd Yet?</h6>
+                <a href="#" class="toggle">Sign Up</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    minlength="4"
+                    id="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    id="password"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input
+                  type="submit"
+                  id="signIn"
+                  value="Sign In"
+                  class="sign-btn"
+                />
+
+                <p class="text">
+                  Forgotten your password or your login details?
+                  <a href="#">Get help</a> signing in
+                </p>
+              
+                  <button class="google" id="login">
+                    <img src="pngwing.com.png" alt="" />
+                  </button>
+                
+              </div>
+            </form>
+
+            <form class="sign-up-form">
+              <div class="logo">
+                <img src="pngegg (1).png" alt="logo" />
+                <h4>MvHub</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Get Started</h2>
+                <h6>Already have an account?</h6>
+                <a href="#" class="toggle">Sign In</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    id="username"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Name</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    id="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    id="password"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input
+                  type="submit"
+                  id="signUp"
+                  value="Sign Up"
+                  class="sign-btn"
+                />
+
+                <p class="text">
+                  By sigining up, I agree to the
+                  <a href="#">Terms of Service</a> and
+                  <a href="#">Privacy Policy</a>
+                </p>
+
+                <button class="google" id="login">
+                  <img src="pngwing.com.png" alt="" />
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img
+                src="https://i.pinimg.com/564x/6f/c0/85/6fc08561580a6bcfa40cc2ee71d82115.jpg"
+                class="image img-1"
+                alt=""
+              />
+              <img
+                src="https://cdn.dribbble.com/users/2851002/screenshots/7736965/media/e08e0676dd54ae8715c2d72bbdd51eb2.gif"
+                class="image img-2"
+                alt=""
+              />
+              <img
+                src="https://i.pinimg.com/originals/66/6a/bc/666abcf055d3896104cbb502d0e1a8fe.gif"
+                class="image img-3"
+                alt=""
+              />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Expolre a wide virety of movies</h2>
+                  <h2>Search for any movie of your choice</h2>
+                  <h2>Download movies of your interest</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- END OF LOGIN CONTAINER -->
+
+    <!-- LATEST MOVIES SECTION -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">latest movies (2023)</div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/oDMHtlSHi13-barbie-2023-hc-hdrip-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/AqgKGgqnKr1.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Barbie(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/lZmKlDhfd91-teenage-mutant-ninja-turtles-mutant-mayhem-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/Wz27WPB9a5R.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Teenage Mutant Ninja Turtles:Mutant Mayhem(2023)
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/IxRRwEBcO32-indiana-jones-and-the-dial-of-destiny-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/G4E7zgQJab6.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Indiana Jones and the Dial of Destiny (2023)
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/RFDLUFGsx25-the-boogeyman-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/g3M73oGo79y.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Boogeyman (2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/sxYkIIGUO94-hitmen-2023-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/Gem7QJAJaYx.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Hitmen(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/QSnNzNeqK64-the-island-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/BQJNjj6YNrL.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Island(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/rLMTefDSV75-cobweb-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/1xYNe8AMaLJ.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Cobweb(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/bwbWmbGby61-red-white-royal-blue-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/mr9KYJdP7q6.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Red,White and Royal Blue(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/ZoQwtZwDs05-resident-evil-death-island-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/1xYNegEk7LJ.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Resident Evil(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/GGnTEPrIZ07-the-flash-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/3g8NBD9e7DR.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Flash(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/plUMScnnz30-shazam-fury-of-the-gods-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/xM6K5DbZNyE.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Shazam! Fury of the Gods(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/yNlKGlXBU31-creed-iii-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjogb3ySIL3k-9vIPKyMY3W0PhKGco0eSxaYXVVwiUJ3s0bFPxbAMDHlLeSnRvOhAWuSbSUgN4tlbpMyStfYn0yIHAeN39zzd5wX8qu-G96704vw-bDK8HuYszrqbAKzhZkJfpVsWOqTTnYYTmDa_iiTnGx-iwq4fM9Z_cvecRJr2vcEFx-3b0Bzrvm2FI/s1060/Screenshot_20230730-213414.png"
+              alt=""
+            />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Creed III(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/BPXlLlUcD80-transformers-rise-of-the-beasts-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img
+              src="https://images1.wionews.com/images/wion/900x1600/2023/6/1/1685627876600_MV5BZTNiNDA4NmMtNTExNi00YmViLWJkMDAtMDAxNmRjY2I2NDVjXkEyXkFqcGdeQXVyMDM2NDM2MQ.V1.jpg"
+              alt=""
+            />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Transformer(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/NadjBuJSn80-ant-man-and-the-wasp-quantumania-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img
+              src="https://awbi.org/wp-content/uploads/2023/05/Ant-Man-and-The-Wasp-Quantumania-8-1200x1777-1-692x1024.jpg"
+              alt=""
+            />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Antman:Quantumania(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/gdAaKTLWZ45-guardians-of-the-galaxy-vol-3-2023-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/qvg70nXwNze.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Guardians Of the Galaxy III(2023)
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/RvIRGUBRm09-fast-x-2023-netnaija-com-mkv  "
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/9bVNrDw27Wv.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Fast X(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/oISCXcYmD47-john-wick-chapter-4-2023-netnaija-com-mkv "
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/5wPKLkmLNVB.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">John Wick: Chapter 4(2023)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+    <!-- END LATEST MOVIES SECTION -->
+
+    <!-- 2020-2022 MOVIE/ANIMATIONS SECTION -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">2022 movie/animations</div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/NUIqSnEIU37-the-adam-project-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/xM6K5n907yE.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Adam Project (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/OmvROkzTv92-the-bad-guys-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/5wPKLORQNVB.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Bad Guys (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/BowDzdsuk11-uncharted-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/Gem7QglJNYx.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Uncharted (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/dRcRGYAnS35-entergalactic-2022-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/LqXNEMyWNlE.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Entergalactic (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/ZrlGSQIDn90-morbius-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/5VrNp56JK9O.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Morbius (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/stSWRxfzl68-puss-in-boots-the-last-wish-2022-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/Aq2NA65YKzJ.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Puss in Boots:The Last Wish(2022)
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/APgmvrLlg44-the-woman-king-2022-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/ZOoankWxNjA.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Woman King (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/wQXoGxXJA29-lightyear-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/90ZNPeywK8e.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Lightyear (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/tamqnDVEY93-the-northman-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/zxG7ZlWjNq2.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Northman (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/dIWXjEAeo50-turning-red-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/qEQN2n9wN6W.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Turning Red (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/TqbMDfazp29-day-shift-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/no4NXOena9M.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Day Shift (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/izMvmkJSn18-dc-league-of-super-pets-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/Wz27WmG9N5R.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">DC League of Super-Pets (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/LDvryTseT05-the-man-from-toronto-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/wnRaM5yXadq.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Man From Toronto (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/sDVLiVAUI30-the-sea-beast-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/BQJNjY1jarL.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Sea Beast (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/pZKBjtGtE13-bullet-train-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/deYakzxk7P3.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Bullet Train (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/RckJxActM42-strange-world-2022-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/pJdN90epa4P.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Strange World (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/mUwDsqNfJ04-nanny-2022-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/mr9KYe9ZKq6.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Nanny (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/MHWAbqZgO03-hotel-transylvania-transformania-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/8yZaJgE9NJ0.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Hotel Transylvania: Transformania
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/jnbmQZTcI02-battle-on-buka-street-2022-netnaija-com-mkv"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/wnRaMrjgNdq.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Battle on Buka Street (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/TNndmeauI89-rise-of-the-teenage-mutant-ninja-turtles-the-movie-2022-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/mjyK6GZD7wD.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Rise of the Teenage Mutant Ninja Turtles: The Movie (2022)
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/ScglSMTYj86-the-gray-man-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/qEQN2QZ9a6W.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Gray Man (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/oQXKjQiTg61-mortal-kombat-legends-snow-blind-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/mr9KYgy1aq6.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Mortal Kombat Legends:Snow Blind(2022)
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/zEVNzFEXk62-hustle-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/Wz27W485a5R.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Hustle (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/XOLsVCBOQ47-green-lantern-beware-my-power-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/zOJabe437G2.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Green Lantern:Beware My Power(2022)
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/yNFtXdNWB79-me-time-2022-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/wk37lnGzNPd.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Me Time (2022)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+    <!-- END 2020-2022 MOVIE/ANIMATION SECTION -->
+
+    <!-- 2019-2021 MOVIES SECTION -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">top 2019-2021 movies</div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/eHzmjCytL21-ghostbusters-afterlife-2021-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/zxG7ZZqd7q2.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Ghostbusters: Afterlife (2021)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/OrDwzdrqQ36-black-widow-2021-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/mjyK6w1m7wD.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Black Widow (2021)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/MbUlGMuwy30-knives-out-2019-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://img.netnaija.com/pRJHHK.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Knives Out (2019)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/oNzEcsYEl48-adventures-of-aladdin-2019-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://img.netnaija.com/FZcHHK.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Adventures of Aladdin (2019)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/MErYNdwtv16-spider-man-no-way-home-2021-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://static.netnaija.com/i/WAPK4z3ka0B.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Spider-Man: No Way Home (2021)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/fviyiyMfa61-spider-man-far-from-home-2019-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://img.netnaija.com/qX1HHK.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Spider-Man: Far from Home (2019)
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/dNlfUAGzp55-godzilla-king-of-the-monsters-2019-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://img.netnaija.com/G2qHHK.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Godzilla: King of the Monsters (2019)
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/gmZbBHOyv14-terminator-dark-fate-2019-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://img.netnaija.com/bZJHHK.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Terminator: Dark Fate (2019)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/AqcSlFtGP01-the-lion-king-2019-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://img.netnaija.com/J9qHHK.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Lion King (2019)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/VaHCdsuMf23-shazam-2019-hc-hdrip-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://img.netnaija.com/wpXHHK.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Shazam! (2019)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/LxtSpLtAi79-captain-marvel-2019-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://img.netnaija.com/NwXHHK.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Captain Marvel (2019)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/YwpcEElGt63-joker-2019-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://img.netnaija.com/882HHK.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Joker (2019)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a
+            href="https://www.sabishare.com/file/IcFVkLKPG06-avengers-endgame-2019-netnaija-com-mp4"
+            class="movie-item"
+          >
+            <img src="https://img.netnaija.com/TMXHHK.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Endgame (2019)</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+    <!-- END 2019-2021 MOVIES SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-md-6 col-sm-12">
+            <div class="content">
+              <a href="index.html" class="logo">
+                <i class="bx bxs-movie-play bx-tada" style="color: #e80909"></i
+                >Mv<span class="main-color">H</span>ub
+              </a>
+
+              <p>
+                Here at MvHub we offer you quality👌 entertainment and When it
+                come sto Movies!, MvHub got you covered,so no need to worry Just
+                sit back,grab some popcorn🍿 and embark on a journey through the
+                magical world of movies with us. Lights,Camera,Action!!🎬🎥.
+              </p>
+              <div class="social-list">
+                <a
+                  href="https://mobile.facebook.com/profile.php/?id=100066586974785&name=xhp_n__fb__action__open_user"
+                  class="social-item"
+                >
+                  <i class="bx bxl-facebook"></i>
+                </a>
+                <a href="https://github.com/miracleeze101" class="social-item">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://wa.link/8zsmqu" class="social-item">
+                  <i class="bx bxl-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>MvHub</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="about.html">About us</a></li>
+                    <li>
+                      <a href="https://github.com/miracleeze101">My profile</a>
+                    </li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="https://wa.link/8zsmqu">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Browse</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="about.html">About us</a></li>
+                    <li>
+                      <a href="https://github.com/miracleeze101">My profile</a>
+                    </li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="https://wa.link/8zsmqu">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Help</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="about.html">About us</a></li>
+                    <li>
+                      <a href="https://github.com/miracleeze101">My profile</a>
+                    </li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="https://wa.link/8zsmqu">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+      Copyright 2023
+      <a
+        href="https://www.youtube.com/channel/UCnNgtK4tGlWcceXVzoyTg8Q"
+        colas
+        target="_blank"
+      >
+        Grey Code</a
+      >
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- OWL CAROUSEL -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- APP SCRIPT -->
+    <script src="login.js"></script>
+    <script src="app.js"></script>
+    <script type="module" src="google.js" defer></script>
+
+  </body>
+
+</html>
